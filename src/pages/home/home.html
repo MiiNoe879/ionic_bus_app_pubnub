@@ -1,0 +1,79 @@
+<!--
+  Generated template for the Map page.
+
+  See http://ionicframework.com/docs/v2/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+
+
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title><img class="headerImg" src="assets/images/logo.png"></ion-title>
+       <ion-buttons end>
+    <i *ngIf="driverTracking === true" class=" blink" style ="color:red"><ion-icon name="alert"></ion-icon>Sending Live Location</i>
+  </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+
+
+
+<ion-content class="card-background-page">
+
+  <ion-card (click)="openMap(1)">
+    <img src="assets/images/auckland.jpg"/>
+    <div class="card-title">Auckland</div>
+    <div class="card-subtitle">Discover New Zealand’s largest city and former capital</div>
+      <ion-row>
+    <ion-col>
+      <button ion-button icon-left clear small>
+        <!-- <ion-icon name="thumbs-up"></ion-icon> -->
+        <div style="color: #e04f66;">Live Bus Tracking</div>
+      </button>
+    </ion-col>
+    <ion-col>
+      <button ion-button icon-left clear small card-text>
+        <ion-icon style="color: #e04f66;" name="text"></ion-icon>
+        <div style="color: #e04f66;">Information</div>
+      </button>
+    </ion-col>
+    <ion-col center text-center>
+      <button ion-button icon-left clear small card-text>
+        <!-- <ion-icon name="thumbs-up"></ion-icon> -->
+        <div style="color: #e04f66;">Buy Ticket</div>
+      </button>
+    </ion-col>
+  </ion-row>
+  </ion-card>
+
+  <ion-card (click)="openMap(2)">
+    <img src="assets/images/christchurch.jpg"/>
+    <div class="card-title">Christchurch</div>
+    <div class="card-subtitle">With an eclectic mix of new and old, Christchurch is truly a city like no other.</div>
+          <ion-row>
+    <ion-col>
+      <button ion-button icon-left clear small>
+        <!-- <ion-icon name="thumbs-up"></ion-icon> -->
+        <div style="color: #e04f66;">Live Bus Tracking</div>
+      </button>
+    </ion-col>
+    <ion-col>
+      <button ion-button icon-left clear small>
+        <ion-icon name="text" style="color: #e04f66;"></ion-icon>
+        <div style="color: #e04f66;">Information</div>
+      </button>
+    </ion-col>
+      <ion-col>
+      <button ion-button icon-left clear small>
+        <!-- <ion-icon name="thumbs-up"></ion-icon> -->
+        <div style="color: #e04f66;">Buy Ticket</div>
+      </button>
+    </ion-col>
+  </ion-row>
+  </ion-card>
+
+
+</ion-content>

@@ -1,0 +1,247 @@
+{
+
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "route": "red",
+        "style": {"iconUrl": "//cdn.shopify.com/s/files/1/2314/0377/t/3/assets/Red-Blue-Number-icon-1.png?14059996050108928727",
+          "iconSize":   [32, 32]
+                }, 
+        "marker-color": "#e2250f",
+        "marker-size": "medium",
+        "marker-symbol": "bus",
+        "markerName" : "SkyTower",
+        "description": "<b>Stop 1: SKYCITY</b><br>SKYCITY is a premiere entertainment destination located in the heart of Auckland’s CBD. Enjoy breath-taking 360° views from the 328m tall Sky Tower, or for those seeking adventure, take a Sky Walk around the top, or leap off the platform on the Sky Jump! SKYCITY also boasts a world-class casino and several restaurants and bars."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.76229,
+          -36.84819
+        ]
+      }
+    },
+        {
+      "type": "Feature",
+      "properties": {
+        "route": "red",
+        "marker-color": "#e2250f",
+        "marker-size": "medium",
+        "marker-symbol": "bus",
+        "markerName" : "Viaduct",
+        "description": "<b>Stop 2: Viaduct Harbour</b><br>The Viaduct Harbour is a residential, commercial and entertainment precinct that boasts some of Auckland’s finest restaurants and bars. This picturesque waterfront destination hosts a variety of events and is a superb place to dine or relax and watch the world go by."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.76533,
+          -36.84279
+        ]
+      }
+    },
+        {
+      "type": "Feature",
+      "properties": {
+        "route": "red",
+        "marker-color": "#e2250f",
+        "marker-size": "medium",
+        "marker-symbol": "bus",
+        "markerName" : "Bastion",
+        "description": "<b>Stop 3: Bastion Point</b><br>This historic reserve provides great views across the Waitemata Habour, Rangitoto and the Auckland city skyline. Bastion Point is most clearly remembered in New Zealand history for its role in 1970’s Maori protests against forced land alienation by non-Maori New Zealanders."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.82564,
+          -36.84682
+        ]
+      }
+    },
+        {
+      "type": "Feature",
+      "properties": {
+        "route": "red",
+        "marker-color": "#e2250f",
+        "marker-size": "medium",
+        "marker-symbol": "bus",
+        "markerName" : "Kelly Tarlton",
+        "description": "<b>Stop 4: Kelly Tarlton’s Sea Life Aquarium</b><br>Set on the waterfront, just moments from the famous Mission Bay beach, Kelly Tarlton’s Sea Life Aquarirum is one of Auckland’s top attractions. Kelly Tarlton’s showcases over 30 live animal exhibits in spectacular habitat displays, including the world’s largest Antarctic penguin colony exhibit and a Shark Cage experience."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.8172,
+          -36.84616
+        ]
+      }
+    },
+        {
+      "type": "Feature",
+      "properties": {
+        "route": "red",
+        "marker-color": "#e2250f",
+        "marker-size": "medium",
+        "marker-symbol": "bus",
+        "markerName" : "Parnell",
+        "description": "<b>Stop 5: Parnell/Holy Trinity Cathedral</b><br>Parnell has it all! Shopping, cafés, markets, heritage walks, museums and more. This vibrant inner-city suburb is one of New Zealand’s most desirable places to live, work and play! Here you can also visit Holy Trinity Cathedral, the mother church of the Anglican Diocese of Auckland."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.78299,
+         -36.859
+        ]
+      }
+    },
+        {
+      "type": "Feature",
+      "properties": {
+        "route": "red",
+        "marker-color": "#e2250f",
+        "marker-size": "medium",
+        "marker-symbol": "bus",
+        "markerName" : "Museum",
+        "description": "<b>Stop 6: Auckland Museum</b><br>Nau Mai, Haere Mai! Auckland Museum is where exciting stories are told of New Zealand, the people, the Pacific, flora, fauna, and the unique landscape, it all comes to life through exciting and artistic exhibitions. This historic building is a memorial dedicated to those who have sacrificed their lives for our country."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.77779,
+          -36.86149
+        ]
+      }
+    },
+        {
+      "type": "Feature",
+      "properties": {
+        "route": "red",
+        "marker-color": "#e2250f",
+        "marker-size": "medium",
+        "marker-symbol": "bus",
+        "markerName" : "Art Gallery",
+        "description": "<b>Stop 8: Albert Park/Auckland Art Gallery</b><br>Albert Park is a popular destination for Auckland residents and visitors alike. At one corner of the park is the Auckland Art Gallery and gardens, and on the other side is the original park-keepers cottage which is now a museum of memorabilia."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.76559,
+          -36.85268
+        ]
+      }
+    },
+        {
+      "type": "Feature",
+      "properties": {
+        "route": "blue",
+        "marker-color": "#e2250f",
+        "marker-size": "medium",
+        "marker-symbol": "bus",
+        "markerName" : "St Lukes",
+        "description": "<b>Stop 2: Westfield St Lukes Mall</b><br>Westfield St Lukes is one of the three big shopping centres in the western suburbs of Auckland. It receives about 6 million shopper visits annually and features over 160 stores, including Farmers, K-Mart, jewellers, supermarkets, beauty therapists, cafés, fast-food chains, ANZ & BNZ banks, a cinema complex and more."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.73223,
+          -36.88218
+        ]
+      }
+    },
+        {
+      "type": "Feature",
+      "properties": {
+        "route": "blue",
+        "marker-color": "#e2250f",
+        "marker-size": "medium",
+        "marker-symbol": "bus",
+        "markerName" : "Zoo",
+        "description": "<b>Stop 3: Auckland Zoo</b><br>Home to 138 different species and over 875 animals, Auckland Zoo has the largest collection of native and exotic animals in New Zealand. In 2011 the zoo opened its greatest development, Te Wao Nui, which offers a truly unique and immersive experience of New Zealand’s native animals, flora and fauna."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.72033,
+          -36.8652
+        ]
+      }
+    },
+        {
+      "type": "Feature",
+      "properties": {
+        "route": "blue",
+        "marker-color": "#e2250f",
+        "marker-size": "medium",
+        "marker-symbol": "bus",
+        "markerName" : "Motat",
+        "description": "<b>Stop 4: MOTAT</b><br>MOTAT is New Zealand’s largest transport and technology museum offering a fun and exciting learning experience for visitors of all ages. Spread across 40 acres, you are invited to explore and discover the achievements that have helped shape New Zealand from the 1800’s to today."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.72536,
+         -36.86809
+        ]
+      }
+    },
+        {
+      "type": "Feature",
+      "properties": {
+        "route": "blue",
+        "marker-color": "#e2250f",
+        "marker-size": "medium",
+        "marker-symbol": "bus",
+        "markerName" : "Ponsonby",
+        "description": "<b>Stop 5: Ponsonby</b><br>Ponsonby is one of Auckland’s hippest suburbs. Packed with boutique fashion stores, chic cafés, bars and restaurants, this is a must visit for any food lover or shopaholic. With five-star restaurants and award-winning chefs to pop-up stalls and street food, dining here is a ‘must’. "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.74461,
+          -36.85105
+        ]
+      }
+    },
+        {
+      "type": "Feature",
+      "properties": {
+        "route": "blue",
+        "marker-color": "#e2250f",
+        "marker-size": "medium",
+        "marker-symbol": "bus",
+        "markerName" : "Bridge",
+        "description": "<b>Stop 6: Auckland Harbour Bridge/AJ Hackett Bungy & Bridge Walk</b><br><b>(No stop. Drive by only.)</b></br>The Auckland Harbour Bridge is considered one of the city’s most famous landmarks, towering over the Waitemata Harbour, connecting the North Shore with Auckland City. On the bridge thrill seekers can test their limits on the famous AJ Hackett Bungy or Bridge Climb for incredible 360° views."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.74159,
+          -36.8354
+        ]
+      }
+    },
+        {
+      "type": "Feature",
+      "properties": {
+        "route": "blue",
+        "marker-color": "#e2250f",
+        "marker-size": "medium",
+        "marker-symbol": "bus",
+        "markerName" : "S. tLukes",
+        "description": "<b>Stop 7: Wynyard Quarter</b><br><b>(No stop. Selected Cruise Ship days only.)</b><br>This 37ha area has been home to the marine and fishing industries for decades, but is now being redeveloped, and is New Zealand’s largest urban revitalisation project. With a variety of restaurants, cafés and events, this area has quickly established itself as a popular destination for locals and visitors."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.75515,
+          -36.8404
+        ]
+      }
+    }
+  
+  ]
+}
+
+     
+
+     

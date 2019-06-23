@@ -1,0 +1,8 @@
+{
+  "name": "myBusApp",
+  "app_id": "dcfe8f22",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}

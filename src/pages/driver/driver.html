@@ -1,0 +1,69 @@
+<!--
+  Generated template for the DriverPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Driver</ion-title>
+    <ion-buttons end>
+    <i *ngIf="driverTracking === true" class=" blink" style ="color:red"><ion-icon name="alert"></ion-icon>Sending Live Location</i>
+  </ion-buttons>
+  </ion-navbar>
+</ion-header>
+  
+
+
+<ion-content padding>
+
+
+<form (ngSubmit)="enableTracking()">
+
+<ion-list>
+  <ion-item>
+    <ion-label style="color: white">Select City</ion-label>
+    <ion-select [(ngModel)]="city" [ngModelOptions]="{standalone: true}">
+      <ion-option  *ngFor="let key of cities" [value]="key.id">{{key.name}}</ion-option>
+     <!--  <ion-option value="2">Christchurch</ion-option> -->
+    </ion-select>
+  </ion-item>
+</ion-list>
+
+
+<ion-list>
+  <ion-item>
+    <ion-label style="color: white">Select Route</ion-label>
+    <ion-select [(ngModel)]="route" [ngModelOptions]="{standalone: true}">
+      <ion-option  *ngFor="let key of routes" [value]="key.id">{{key.name}}</ion-option>
+    </ion-select>
+  </ion-item>
+</ion-list>	
+
+	<ion-list>
+  <ion-item>
+    <ion-label style="color: white">Select Bus</ion-label>
+    <ion-select [(ngModel)]="bus" [ngModelOptions]="{standalone: true}">
+      <ion-option  *ngFor="let key of buses" [value]="key.id">{{key.name}}</ion-option>
+    </ion-select>
+  </ion-item>
+</ion-list>	
+
+<button *ngIf="driverTracking === false || !driverTracking"   ion-button color="secondary" outline type="submit" ng-click="isSelected = true; this.live = true"><ion-icon ios="ios-wifi" md="md-wifi"></ion-icon> Start Live Bus Tracking</button>
+
+
+</form>
+<button *ngIf="driverTracking === true" ion-button color="danger" outline (click)="stopTracking()"><ion-icon name="square-outline"></ion-icon> Stop Live Bus Tracking</button>
+<div style="padding-top: 200px">
+  <h3>Simulate Buses on Map</h3>
+<button ion-button outline type="submit" (click)="startSimulation()">Start Simulation </button>
+<button ion-button color="light" outline type="click" (click)="stopSimulation()"><ion-icon name="square-outline"></ion-icon>Stop Simulation</button>
+</div>
+</ion-content>
+
+

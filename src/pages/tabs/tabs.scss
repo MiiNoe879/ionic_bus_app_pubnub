@@ -1,0 +1,22 @@
+
+
+ .tabs-ios .tab-button[aria-selected=true] {
+    color: white;
+    background-color: #e04f66;
+}
+
+.tabs-ios .tab-button[aria-selected=true] .tab-button-icon {
+    color: white;
+}
+
+.tabs-md .tab-button[aria-selected=true] {
+    color: white;
+    padding: 0;
+    background-color: #e04f66
+}
+
+.tabs-md .tab-button[aria-selected=true] .tab-button-icon {
+    color: white;
+    -webkit-transform: translate3d(0, -2px, 0);
+    transform: translate3d(0, -2px, 0);
+}

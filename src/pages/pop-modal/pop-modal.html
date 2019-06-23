@@ -1,0 +1,47 @@
+
+
+<ion-content padding class="modal_view">
+  <div class="bg_ground" (click)="dismiss()"></div>
+  <div class="main_view">
+    <div class="header">
+      <div class="logo">
+        <p>STOP</p>
+        <h2>{{data.stop_number}}</h2>
+      </div>
+    </div>
+    <div class="info">
+      <div class="title">
+        <!-- <h4>Realtime Bus Information </h4> -->
+        <h4 style="font-size: 14px">{{data.stop_name}}</h4>
+        <p>{{data.routeStatus}}</p>
+      </div>
+
+      <ion-list>
+        <ion-item *ngFor="let item of data.eta" style="min-width:50px;min-height: 50px     color: #fbfbfb;
+    background-color: #e04f4f;">
+          <ion-thumbnail item-start style="min-width:50px;min-height: 50px">
+            <img src="assets/images/bus.png" style="width:50px;height: 50px;margin:0 auto;">
+            <p style="color: white">{{item[0]}}</p>
+            <!-- <h2>Daisy</h2> -->
+          </ion-thumbnail>
+<!--           <h2 *ngIf="item < 5" style="text-align: center;color: white">Bus Approaching Shortly</h2>
+ -->          <h2  style="text-align: center;color: white">Approx. {{item[1]}} minutes</h2>
+     
+        </ion-item>
+      </ion-list>
+
+      <div class="description">
+        <h4 style="font-size: 14px">Stop Information</h4>
+        <p>{{data.description}}</p>
+      </div>
+
+      <!-- <button ion-button icon-left class="soscribe" (click)="subcribe()">
+        <ion-icon name="home"></ion-icon>Subscribe for Alert
+      </button>
+ -->
+<button ion-button icon-left class="soscribe"  style="background-color: #E04F50" round> <ion-icon name="ios-alarm-outline"></ion-icon>
+Subscribe for Alerts</button>
+    </div>
+
+  </div>
+</ion-content>

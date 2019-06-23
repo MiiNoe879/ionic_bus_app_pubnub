@@ -1,0 +1,165 @@
+
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+          "cityID" : 2,
+        "route": "red", "routeID": 1, "stop_id" : 1,
+        "style": {
+          "iconUrl": "//cdn.shopify.com/s/files/1/2314/0377/t/3/assets/Red-Blue-Number-icon-1.png?14059996050108928727",
+          "iconSize": [
+            32,
+            32
+          ]
+        },
+        "marker-color": "#e2250f",
+        "marker-size": "medium",
+        "marker-symbol": "bus",
+        "markerName": "Canterbury Museum",
+        "description": "Experience New Zealand’s rich cultural and natural heritage at the Canterbury Museum. Learn about the past, present and future of Canterbury. View rare Maori artefacts, find out about Christchurch’s link to the Antarctic, and The Christchurch Street will transport you back in time with sights and sounds of pioneering days."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.62759,
+          -43.53095
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+         "cityID" : 2,
+        "route": "red", "routeID": 1,"stop_id" : 2,
+        "marker-color": "#e2250f",
+        "marker-size": "medium",
+        "marker-symbol": "bus",
+        "markerName": "Mona Vale",
+        "description": "Mona Vale is home to one of Christchurch’s most beautiful garden settings. Mature trees, rose gardens, a water lily pond, meandering river and sloping lawns, provide a stunning backdrop to Mona Vale Homestead. The Homestead and Gate House are both listed buildings with Heritage New Zealand."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.61073,
+         -43.52209
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+         "cityID" : 2,
+        "route": "red", "routeID": 1, "stop_id" : 3,
+        "marker-color": "#e2250f",
+        "marker-size": "medium",
+        "marker-symbol": "bus",
+        "markerName": "Riccarton House and Bush",
+        "description": "Riccarton House and Bush is a unique New Zealand heritage site consisting of two historic buildings, flanked by beautiful open parkland and ornate gardens, bordered by the River Avon and set against native bush. The forest features Kahikatea trees up to 600 years old. This is a tranquil oasis just 3.5km from the city centre."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.60047,
+         -43.5267
+        ]
+      }
+    },
+        {
+      "type": "Feature",
+      "properties": {
+         "cityID" : 2,
+        "route": "red", "routeID": 1,"stop_id" : 4,
+        "marker-color": "#e2250f",
+        "marker-size": "medium",
+        "marker-symbol": "bus",
+        "markerName": "Westfield Riccarton Mall",
+        "description": "Westfield Riccarton is the largest shopping mall in the South Island and the third-largest in the country. It features over 190 stores, including Farmers, K-Mart, jewellers, supermarkets, beauty therapists, cafés, fast-food chains, Westfield & ASB banks, a cinema complex and more."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.60047,
+         -43.53079
+        ]
+      }
+    },
+        {
+      "type": "Feature",
+      "properties": {
+         "cityID" : 2,
+        "route": "red", "routeID": 1,"stop_id" : 5,
+        "marker-color": "#e2250f",
+        "marker-size": "medium",
+        "marker-symbol": "bus",
+        "markerName": "Earthquake Memorial / The Terrace",
+        "description": "This memorial provides a place to reflect on the events that changed Canterbury forever – paying respect to the people who lost their lives and those who were seriously injured. Located along the banks of the Avon River, this is a tranquil and poignant setting for this important monument."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.631848,
+         -43.533075
+        ]
+      }
+    },
+        {
+      "type": "Feature",
+      "properties": {
+         "cityID" : 2,
+        "route": "red", "routeID": 1,"stop_id" : 6,
+        "marker-color": "#e2250f",
+        "marker-size": "medium",
+        "marker-symbol": "bus",
+        "markerName": "Cardboard Cathedral",
+        "description": "The Cardboard Cathedral is the transitional cathedral of the Anglican Diocese of Christchurch. The original Cathedral was badly damaged in the 2011 earthquake, and this temporary building was opened in August 2013, to help service the community. It is the world’s only Cathedral made substantially of cardboard."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.64269,
+         -43.532986
+        ]
+      }
+    },
+        {
+      "type": "Feature",
+      "properties": {
+         "cityID" : 2,
+        "route": "red", "routeID": 1, "stop_id" : 7,
+        "marker-color": "#e2250f",
+        "marker-size": "medium",
+        "marker-symbol": "bus",
+        "markerName": "Margaret Mahy Playground",
+        "description": "Named after one of New Zealand’s most acclaimed children’s book authors, this magical wonderland is a child’s paradise. With a 4m wide slide, double flying fox, water cannons, sandpit, climbing web, splash pad, picnic and BBQ area, food and coffee carts - this is the perfect stop for families."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.642663,
+         -43.527891
+        ]
+      }
+    },
+            {
+      "type": "Feature",
+      "properties": {
+         "cityID" : 2,
+        "route": "red", "routeID": 1,"stop_id" : 8,
+        "marker-color": "#e2250f",
+        "marker-size": "medium",
+        "marker-symbol": "bus",
+        "markerName": "Cathedral Square",
+        "description": "Cathedral Square is the geographical centre and heart of Christchurch. It has long been a community focal point, a place where the community comes together, in good times and bad. The Christchurch Cathedral is located here and was badly damaged in the February 2011 earthquake. Restoration has been confirmed and will take up to six years to complete."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.636902,
+         -43.530419
+        ]
+      }
+    }
+  ]
+  }
